@@ -1,5 +1,9 @@
 from django.shortcuts import render
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 def index(request):
-    my_dict = {"insert_me": "I am from views.py"}
-    return render(request,'index.html',context=my_dict)
+    logger.info('index page is apear...')
+    return render(request, 'index.html')
