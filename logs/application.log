@@ -222,3 +222,85 @@
 2022-11-14 19:53:47,288 projectApp.views INFO     index page is apear...
 2022-11-14 19:55:04,648 projectApp.views INFO     index page is apear...
 2022-11-14 19:55:44,324 projectApp.views INFO     index page is apear...
+2022-11-15 12:02:17,261 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:03:16,675 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonProject\django-project\sopGenerator\projectApp\views.py", line 12, in index
+    date_obj = datetime.strptime(date_str).time()
+AttributeError: module 'datetime' has no attribute 'strptime'
+2022-11-15 12:03:16,842 django.request WARNING  Not Found: /favicon.ico
+2022-11-15 12:04:27,677 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:04:28,533 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:04:52,537 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:04:53,504 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:04:59,623 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonProject\django-project\sopGenerator\projectApp\views.py", line 12, in index
+    date_obj = datetime.strptime(date_str).time()
+TypeError: strptime() takes exactly 2 arguments (1 given)
+2022-11-15 12:05:16,571 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonProject\django-project\sopGenerator\projectApp\views.py", line 12, in index
+    date_obj = datetime.strptime(date_str).time()
+TypeError: strptime() takes exactly 2 arguments (1 given)
+2022-11-15 12:05:33,771 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:05:34,708 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:05:39,937 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonProject\django-project\sopGenerator\projectApp\views.py", line 12, in index
+    date_obj = datetime.strptime(date_str,"").time()
+  File "C:\Users\MD40092030\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\MD40092030\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: 22-11-21 00:00:00
+2022-11-15 12:06:12,978 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:06:13,719 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:06:19,463 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\pythonProject\django-project\venv1\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonProject\django-project\sopGenerator\projectApp\views.py", line 12, in index
+    date_obj = datetime.strptime(date_str,'%d/%m/%y %H:%M:%S').time()
+  File "C:\Users\MD40092030\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\MD40092030\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '22-11-21 00:00:00' does not match format '%d/%m/%y %H:%M:%S'
+2022-11-15 12:07:04,938 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:07:05,719 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-15 12:07:11,559 projectApp.views INFO     index page is apear...
+2022-11-15 12:08:47,324 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-15 12:08:48,116 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-21 13:14:55,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-21 13:15:13,756 projectApp.views INFO     index page is apear...
+2022-11-21 13:15:14,922 django.request WARNING  Not Found: /favicon.ico
+2022-11-21 13:21:35,596 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-21 13:21:36,378 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-21 13:21:52,549 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-21 13:21:53,235 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-21 13:23:33,444 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-21 13:23:34,124 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-21 13:25:07,485 django.utils.autoreload INFO     C:\pythonProject\django-project\sopGenerator\projectApp\views.py changed, reloading.
+2022-11-21 13:25:08,135 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-22 13:33:44,406 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-22 13:33:59,523 django.request WARNING  Not Found: /favicon.ico
+2022-11-22 16:04:58,121 django.utils.autoreload INFO     Watching for file changes with StatReloader

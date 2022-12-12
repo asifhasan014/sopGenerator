@@ -35,12 +35,6 @@ box-shadow: inset 3px 3px 3px #ffcccc, 3px 3px 3px #ffcccc;
 input[type=checkbox] {
 accent-color: #8f040e;
 }
-<!--form-control {-->
-<!--border: 0;-->
-<!--}-->
-<!--input[type=email]:focus {-->
-<!--border: 3px solid #8f040e;-->
-<!--}-->
 
 {% endblock %}
 
@@ -64,38 +58,42 @@ accent-color: #8f040e;
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <label for="given-name">Given Name</label>
+                                <input type="text" class="form-control" id="given-name" placeholder="Given Name">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                                <label for="sur-name">Sur Name</label>
+                                <input type="text" class="form-control" id="sur-name" placeholder="Sur Name">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                         </div>
-                        <div class="form-group">
-                            <label for="inputAddress2">Address 2</label>
-                            <input type="text" class="form-control" id="inputAddress2"
-                                   placeholder="Apartment, studio, or floor">
-                        </div>
                         <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
+                            <div class="form-group col-md-4">
+                                <label for="country">Country</label>
+                                <select id="country" class="form-control mySelect">
+                                    <option selected class="opt">Choose1...</option>
+                                    <option class="opt">Choose2...</option>
+                                    <option class="opt">Choose3...</option>
+                                    <option class="opt">Choose4...</option>
+                                    <option class="opt">Choose5...</option>
+                                </select>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputState">State</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected>Choose...</option>
+                                <label for="city-or-state">City/State</label>
+                                <select id="city-or-state" class="form-control">
+                                    <option selected>Choose1...</option>
                                     <option>Choose2...</option>
+                                    <option>Choose3...</option>
+                                    <option>Choose4...</option>
+                                    <option>Choose5...</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="inputZip">Zip</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <label for="zip-code">Zip</label>
+                                <input type="text" class="form-control" id="zip-code">
                             </div>
                         </div>
                         <div class="form-group">
